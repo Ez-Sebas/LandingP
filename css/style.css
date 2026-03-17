@@ -1,0 +1,23 @@
+.encabezado > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.encabezado > div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.encabezado > div > div > select {
+  border-radius: 5px;
+  padding: 5px;
+  width: 90px;
+}
+
+.encabezado > div > div > button {
+  background-color: var(--color--primary);
+  border-radius: 5px;
+  padding: 5px;
+}
